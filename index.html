@@ -3,14 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Moje CV</title>
+  <title>Moje CV — wersja 2</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
+    <div class="header">
+      <h1>CV — Łukasz Bartnik</h1>
+      <div class="meta muted">aktualizacja: <span id="updatedAt">21.01.2026</span></div>
+    </div>
+
     <aside class="card">
-      <div class="avatar" id="avatar">Jakieś tam zdjęcie niby</div>
-      <h1 id="name">{{IMIĘ NAZWISKO}}</h1>
+      <div class="avatar" id="avatar">ŁB</div>
+      <h1 id="name" aria-label="Imię i nazwisko">{{IMIĘ NAZWISKO}}</h1>
       <div class="meta" id="contact">{{EMAIL}} • {{TELEFON}} • {{MIASTO}}</div>
 
       <h2>Umiejętności</h2>
@@ -23,7 +28,7 @@
       <h2>Hobby</h2>
       <p id="hobby">{{TWOJE_HOBBY}}</p>
 
-      <footer>21.01.2026</footer>
+      <div class="footer-line">21.01.2026</div>
     </aside>
 
     <main class="card">
