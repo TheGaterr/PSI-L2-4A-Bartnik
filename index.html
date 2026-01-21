@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moje CV</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <aside class="card">
+      <div class="avatar" id="avatar">Jakieś tam zdjęcie niby</div>
+      <h1 id="name">{{IMIĘ NAZWISKO}}</h1>
+      <div class="meta" id="contact">{{EMAIL}} • {{TELEFON}} • {{MIASTO}}</div>
+
+      <h2>Umiejętności</h2>
+      <ul class="skills" id="skills">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+
+      <h2>Hobby</h2>
+      <p id="hobby">{{TWOJE_HOBBY}}</p>
+
+      <footer>21.01.2026</footer>
+    </aside>
+
+    <main class="card">
+      <h2>O mnie</h2>
+      <p id="about">{{KRÓTKI_OPIS}}</p>
+
+      <h2>Ulubiony język programowania</h2>
+      <h3 id="favLang">{{ULUBIONY_JĘZYK}}</h3>
+      <p id="favWhy">{{DLACZEGO}}</p>
+
+      <h2>Doświadczenie / projekty</h2>
+      <p id="projects">{{PROJEKTY}}</p>
+    </main>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
